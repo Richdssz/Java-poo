@@ -12,7 +12,6 @@ public class Pessoa extends Mamifero {
         System.out.println(nome + "Está sendo amamentado");
     }
 
-    @Override
     public void andar(int d) {
         System.out.println(nome + " Está andando" + d);
         dist += d;
