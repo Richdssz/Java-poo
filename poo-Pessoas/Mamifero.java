@@ -1,4 +1,4 @@
-
+package pooPessoas;
 
 public class Mamifero {
     String nome;
@@ -12,7 +12,7 @@ public class Mamifero {
     }
 
     public void emitirSom() {
-        System.out.println();{
+        System.out.println(); {
         }
     }
 
@@ -21,8 +21,6 @@ public class Mamifero {
     }
 
     public void correr() {
-        System.out.println(nome + " correu " );
-
+        System.out.println(nome + " correu ");
     }
-
 }

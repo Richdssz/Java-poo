@@ -1,24 +1,12 @@
 package pooPessoas;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        Pessoa Rich = new Pessoa();
-        Rich.idade = 20;
-        Rich.nome = "richard";
-        Rich.peso = 67;
-        Rich.sexo = "macho";
-        Rich.cpf = "676767";
-        Rich.especie = "Homo-sapiens";
-        Rich.dist = 67;
-
-        Pessoa Joao = new Pessoa();
-        Joao.idade = 67;
-        Joao.nome = "Junin";
-        Joao.peso = 67;
-        Joao.sexo = "Alpha";
-        Joao.cpf = "9739458";
-        Joao.especie = "Homo-erectus";
-        Joao.dist = 76;
+        Scanner sc = new Scanner(System.in);
+        Pessoa Rich = new Pessoa("richard", 20, 67f, "macho", "676767", "Homo-sapiens", 67);
+        Pessoa Joao = new Pessoa("Junin", 67, 67f, "Alpha", "9739458", "Homo-erectus", 76);
 
         Rich.andar();
         Rich.aniversario();
@@ -31,5 +19,10 @@ public class Main {
         Rich.andar();
         Rich.andar();
         Rich.andar();
+
+        Circulo c = new Circulo(5);
+
+        c.Area();
+        c.comprimento();
     }
 }

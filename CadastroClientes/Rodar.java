@@ -6,7 +6,7 @@ public class Rodar {
         Data data = new Data(14, 05, 2006);
         Endereco endereco = new Endereco("RuaUm", 66, "Curado", "Recife", "Pe");
         Cliente cliente = new Cliente("Jao", "1324", "123", data, endereco, telefone);
-    
+        System.out.println(cliente);
     }
     
 }
