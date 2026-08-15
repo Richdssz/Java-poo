@@ -1,7 +1,6 @@
-package horaEdia;
+package Assuntos.a07OrientacaoAObjetos.horaEdia;
 
-
-public class Aplicacao{
+public class Aplicacao {
     public static void main(String[] args) {
 
         Hora hora = new Hora(10, 30, 45);

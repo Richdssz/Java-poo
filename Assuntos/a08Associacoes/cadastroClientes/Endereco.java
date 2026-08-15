@@ -1,4 +1,4 @@
-package CadastroClientes;
+package Assuntos.a08Associacoes.cadastroClientes;
 
 public class Endereco {
     String Logradouro;
@@ -13,7 +13,5 @@ public class Endereco {
         this.bairro = bairro;
         this.cidade = cidade;
         this.estado = estado;
-
     }
-
 }

@@ -1,4 +1,4 @@
-package pooPessoas;
+package Assuntos.a07OrientacaoAObjetos.pooPessoas;
 
 public class Circulo {
     double r;

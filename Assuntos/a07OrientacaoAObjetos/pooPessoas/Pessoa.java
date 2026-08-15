@@ -1,4 +1,4 @@
-package pooPessoas;
+package Assuntos.a07OrientacaoAObjetos.pooPessoas;
 
 public class Pessoa extends Mamifero {
     String nome;
@@ -20,7 +20,7 @@ public class Pessoa extends Mamifero {
     }
 
     public void andar(int d) {
-        System.out.println(nome + " Está andando" + d);
+        System.out.println(nome + " Está andando " + d);
         dist += d;
     }
 
@@ -36,5 +36,4 @@ public class Pessoa extends Mamifero {
         idade++;
         System.out.print(nome + " fez " + idade + ", Parabéns!");
     }
-
 }

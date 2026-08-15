@@ -1,4 +1,4 @@
-package CadastroClientes;
+package Assuntos.a08Associacoes.cadastroClientes;
 
 public class Cliente {
     String nome;
@@ -8,7 +8,7 @@ public class Cliente {
     Endereco endereco;
     Telefone telefone;
 
-    public Cliente(String nome,String rg, String cpf,Data nascimento, Endereco endereco,Telefone telefone){
+    public Cliente(String nome, String rg, String cpf, Data nascimento, Endereco endereco, Telefone telefone) {
         this.nome = nome;
         this.rg = rg;
         this.cpf = cpf;
