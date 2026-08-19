@@ -19,26 +19,27 @@ Os materiais teóricos e slides presentes na pasta [`Pdfs/`](Pdfs) foram disponi
 O repositório está organizado em duas partes principais:
 
 - **`Assuntos/`**: Código-fonte em Java contendo os projetos práticos divididos por módulos em `camelCase`.
+- **`Exercicios/`**: Cadernos de exercícios e desafios autorais desenvolvidos por Richd ([Richdssz](https://github.com/Richdssz)) por iniciativa própria para fortalecer e consolidar a base prática em Java (UNICAP).
 - **`Pdfs/`**: Slides e apostilas teóricas em PDF correspondentes aos módulos do curso.
 
 ---
 
 ## 📚 Tópicos de Estudo
 
-|   #    | Tópico                        | Código-Fonte                                                                       | Material Teórico                                                                      |
-| :----: | :---------------------------- | :--------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------ |
-| **07** | Orientação a Objetos          | [`Assuntos/a07OrientacaoAObjetos`](Assuntos/a07OrientacaoAObjetos)                 | -                                                                                     |
-| **08** | Associações                   | [`Assuntos/a08Associacoes`](Assuntos/a08Associacoes)                               | -                                                                                     |
-| **09** | Encapsulamento                | [`Assuntos/a09Encapsulamento`](Assuntos/a09Encapsulamento)                         | [`POO_09_Encapsulamento.pdf`](Pdfs/POO_09_Encapsulamento.pdf)                         |
-| **10** | Atributos e Métodos Estáticos | [`Assuntos/a10AtributosEMetodosEstaticos`](Assuntos/a10AtributosEMetodosEstaticos) | [`POO_10_AtributosMetodos_Estaticos.pdf`](Pdfs/POO_10_AtributosMetodos_Estaticos.pdf) |
-| **11** | Herança                       | [`Assuntos/a11Heranca`](Assuntos/a11Heranca)                                       | [`POO_11_Heranca.pdf`](Pdfs/POO_11_Heranca.pdf)                                       |
-| **12** | Classes Abstratas             | [`Assuntos/a12ClassesAbstratas`](Assuntos/a12ClassesAbstratas)                     | [`POO_12_Classe_Abstrata.pdf`](Pdfs/POO_12_Classe_Abstrata.pdf)                       |
-| **13** | Overriding                    | [`Assuntos/a13Overriding`](Assuntos/a13Overriding)                                 | [`POO_13_Overriding.pdf`](Pdfs/POO_13_Overriding.pdf)                                 |
-| **14** | Interfaces                    | [`Assuntos/a14Interfaces`](Assuntos/a14Interfaces)                                 | [`POO_14_Interfaces.pdf`](Pdfs/POO_14_Interfaces.pdf)                                 |
-| **15** | Exceções                      | [`Assuntos/a15Excecoes`](Assuntos/a15Excecoes)                                     | [`POO_15_Excecoes.pdf`](Pdfs/POO_15_Excecoes.pdf)                                     |
-| **16** | Arquitetura em Camadas        | [`Assuntos/a16ArquiteturaEmCamadas`](Assuntos/a16ArquiteturaEmCamadas)             | [`POO_16_ArqCamadas.pdf`](Pdfs/POO_16_ArqCamadas.pdf)                                 |
-| **17** | Singleton                     | [`Assuntos/a17Singleton`](Assuntos/a17Singleton)                                   | [`POO_17_Singleton.pdf`](Pdfs/POO_17_Singleton.pdf)                                   |
-| **18** | JDBC                          | [`Assuntos/a18Jdbc`](Assuntos/a18Jdbc)                                             | [`POO_18_JDBC.pdf`](Pdfs/POO_18_JDBC.pdf)                                             |
+|   #    | Tópico                        | Material Teórico                                                                      | Códigos de Exemplo                                                                 | Exercícios de Fixação                                                          |
+| :----: | :---------------------------- | :------------------------------------------------------------------------------------ | :--------------------------------------------------------------------------------- | :----------------------------------------------------------------------------- |
+| **07** | Orientação a Objetos          | -                                                                                     | [`Assuntos/a07OrientacaoAObjetos`](Assuntos/a07OrientacaoAObjetos)                 | [`Exercicios/a07OrientacaoAObjetos`](Exercicios/a07OrientacaoAObjetos/EXERCICIOS.md) |
+| **08** | Associações                   | -                                                                                     | [`Assuntos/a08Associacoes`](Assuntos/a08Associacoes)                               | [`Exercicios/a08Associacoes`](Exercicios/a08Associacoes)                        |
+| **09** | Encapsulamento                | [`POO_09_Encapsulamento.pdf`](Pdfs/POO_09_Encapsulamento.pdf)                         | [`Assuntos/a09Encapsulamento`](Assuntos/a09Encapsulamento)                         | [`Exercicios/a09Encapsulamento`](Exercicios/a09Encapsulamento)                  |
+| **10** | Atributos e Métodos Estáticos | [`POO_10_AtributosMetodos_Estaticos.pdf`](Pdfs/POO_10_AtributosMetodos_Estaticos.pdf) | [`Assuntos/a10AtributosEMetodosEstaticos`](Assuntos/a10AtributosEMetodosEstaticos) | -                                                                              |
+| **11** | Herança                       | [`POO_11_Heranca.pdf`](Pdfs/POO_11_Heranca.pdf)                                       | [`Assuntos/a11Heranca`](Assuntos/a11Heranca)                                       | -                                                                              |
+| **12** | Classes Abstratas             | [`POO_12_Classe_Abstrata.pdf`](Pdfs/POO_12_Classe_Abstrata.pdf)                       | [`Assuntos/a12ClassesAbstratas`](Assuntos/a12ClassesAbstratas)                     | -                                                                              |
+| **13** | Overriding                    | [`POO_13_Overriding.pdf`](Pdfs/POO_13_Overriding.pdf)                                 | [`Assuntos/a13Overriding`](Assuntos/a13Overriding)                                 | -                                                                              |
+| **14** | Interfaces                    | [`POO_14_Interfaces.pdf`](Pdfs/POO_14_Interfaces.pdf)                                 | [`Assuntos/a14Interfaces`](Assuntos/a14Interfaces)                                 | -                                                                              |
+| **15** | Exceções                      | [`POO_15_Excecoes.pdf`](Pdfs/POO_15_Excecoes.pdf)                                     | [`Assuntos/a15Excecoes`](Assuntos/a15Excecoes)                                     | -                                                                              |
+| **16** | Arquitetura em Camadas        | [`POO_16_ArqCamadas.pdf`](Pdfs/POO_16_ArqCamadas.pdf)                                 | [`Assuntos/a16ArquiteturaEmCamadas`](Assuntos/a16ArquiteturaEmCamadas)             | -                                                                              |
+| **17** | Singleton                     | [`POO_17_Singleton.pdf`](Pdfs/POO_17_Singleton.pdf)                                   | [`Assuntos/a17Singleton`](Assuntos/a17Singleton)                                   | -                                                                              |
+| **18** | JDBC                          | [`POO_18_JDBC.pdf`](Pdfs/POO_18_JDBC.pdf)                                             | [`Assuntos/a18Jdbc`](Assuntos/a18Jdbc)                                             | -                                                                              |
 
 ---
 
