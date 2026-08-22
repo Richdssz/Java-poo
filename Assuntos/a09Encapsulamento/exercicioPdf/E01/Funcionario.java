@@ -35,7 +35,7 @@ public class Funcionario {
     }
 
     public void setNome(String n) {
-        if (n != null && !n.equals("")) {
+        if (n != null && !n.isBlank()) {
             this.nome = n;
         }
     }

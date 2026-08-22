@@ -3,6 +3,7 @@ package Assuntos.a09Encapsulamento.exercicioPdf.E01;
 public class Departamento {
     private int codigo;
     private String nome;
+    public static String Chefe;
 
     public Departamento(int codigo, String nome) {
         setCodigo(codigo);
@@ -29,7 +30,7 @@ public class Departamento {
     }
 
     public void setNome(String n) {
-        if (n != null && !n.equals("")) {
+        if (n != null && !n.isBlank()) {
             this.nome = n;
         } else {
             System.out.println("Só valores reais");

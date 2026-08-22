@@ -27,7 +27,7 @@ public class Pessoa {
     //Setters
 
     public void setName(String name) {
-        if (name != null && !name.equals("")) {
+        if (name != null && !name.isBlank()) {
             this.name = name;
         }
     }
