@@ -9,6 +9,7 @@ public class Departamento {
         setCodigo(codigo);
         setNome(nome);
     }
+    
     public Departamento() {
         
     }

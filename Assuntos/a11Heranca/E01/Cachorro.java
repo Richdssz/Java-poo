@@ -1,8 +1,14 @@
 package Assuntos.a11Heranca.E01;
 
 public class Cachorro {
-    private String nome;
-    private String raca;
+    protected String nome;
+    protected String raca;
+
+    
+    public Cachorro(String n, String r){
+        setNome(n);
+        setRaca(r);
+    }
 
     // setters
 
@@ -31,4 +37,3 @@ public class Cachorro {
         return this.raca;
     }
 }
-
