@@ -15,6 +15,6 @@ public class Gerente extends Funcionario {
     }
 
     public String toString() {
-        return "O gerente se chama: " + getNome() + "\nSeu saláro é: " + getSalario();
+        return "O gerente se chama: " + getNome() + "\nSeu salário é: " + getSalario();
     };
 }
