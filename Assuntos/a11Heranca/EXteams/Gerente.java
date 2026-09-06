@@ -6,7 +6,6 @@ public class Gerente extends Funcionario {
     public Gerente(String nome, String cpf, double salario, String departamento) {
         super(nome, cpf, salario);
         setDepartamento(departamento);
-
     }
 
     public String getDepartamento() {
@@ -17,5 +16,13 @@ public class Gerente extends Funcionario {
         if (departamento != null && !departamento.isBlank()) {
             this.departamento = departamento;
         }
+    }
+
+    @Override
+    public String toString() {
+        return "    Nome: " + getNome()
+                + "\n    CPF: " + getCpf()
+                + "\n    Departamento: " + getDepartamento()
+                + "\n    Salário: R$ " + String.format("%.2f", getSalario());
     }
 }

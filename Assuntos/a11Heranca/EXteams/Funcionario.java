@@ -1,12 +1,14 @@
 package Assuntos.a11Heranca.EXteams;
 
-public class Funcionario {
+public abstract class Funcionario {
     private String nome;
     private String cpf;
     private double salario;
 
     public Funcionario(String nome, String cpf, double salario) {
-        setNome(nome); setCpf(cpf);setSalario(salario);
+        setNome(nome);
+        setCpf(cpf);
+        setSalario(salario);
     }
 
     public String getNome() {
@@ -39,4 +41,5 @@ public class Funcionario {
         }
     }
 
+    public abstract String toString();
 }

@@ -18,4 +18,12 @@ public class Desenvolvedor extends Funcionario {
             this.linguagemPrincipal = linguagemPrincipal;
         }
     }
+
+    @Override
+    public String toString() {
+        return "    Nome: " + getNome()
+                + "\n    CPF: " + getCpf()
+                + "\n    Linguagem: " + getLinguagemPrincipal()
+                + "\n    Salário: R$ " + String.format("%.2f", getSalario());
+    }
 }

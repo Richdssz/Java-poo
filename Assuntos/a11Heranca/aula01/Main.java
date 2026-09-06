@@ -1,4 +1,4 @@
-package Assuntos.a11Heranca.aula;
+package Assuntos.a11Heranca.aula01;
 
 public class Main {
     public static void main(String[] args) {

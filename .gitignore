@@ -4,6 +4,10 @@
 *.iws
 *.ipr
 out/
+bin/
+
+# Pasta de notas e estudos avulsos
+outros/
 
 # Eclipse
 .classpath

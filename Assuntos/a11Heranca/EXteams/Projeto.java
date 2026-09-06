@@ -11,7 +11,7 @@ public class Projeto {
         setDesenvolvedor(DesenvolvedorResponsavel);
     }
 
-    public String getNome(){
+    public String getNome() {
         return this.nome;
     }
 
@@ -40,4 +40,12 @@ public class Projeto {
             this.desenvolvedorResponsavel = dev;
         }
     }
+
+    @Override
+    public String toString() {
+        return "• Projeto: " + getNome()
+                + "\n  Descrição: " + getDescricao()
+                + "\n  Responsável:\n" + getDesenvolvedor();
+    }
+
 }
