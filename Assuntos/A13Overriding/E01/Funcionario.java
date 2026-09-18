@@ -12,7 +12,7 @@ public abstract class Funcionario {
     public void setSalario(double salario) {
         if (salario < 0) {
             
-        }Salario = salario;
+        } Salario = salario;
     }
 
     public void setNome(String nome) {
