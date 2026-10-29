@@ -5,6 +5,7 @@
 *.ipr
 out/
 bin/
+**/target/
 
 # Pasta de notas e estudos avulsos
 outros/
