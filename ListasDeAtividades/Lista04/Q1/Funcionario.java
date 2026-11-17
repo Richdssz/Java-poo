@@ -1,3 +1,5 @@
+package ListasDeAtividades.Lista04.Q1;
+
 public abstract class Funcionario {
     private String nome;
     private double salarioBase;

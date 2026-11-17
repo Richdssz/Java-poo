@@ -1,3 +1,5 @@
+package ListasDeAtividades.Lista04.Q1;
+
 public class FuncionarioPJ extends Funcionario {
 
     public FuncionarioPJ(String nome, double salarioBase) {

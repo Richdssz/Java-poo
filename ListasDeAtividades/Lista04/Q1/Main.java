@@ -1,3 +1,5 @@
+package ListasDeAtividades.Lista04.Q1;
+
 public class Main {
     public static void main(String[] args) {
         FuncionarioCLT Joao = new FuncionarioCLT("joao", 1600);

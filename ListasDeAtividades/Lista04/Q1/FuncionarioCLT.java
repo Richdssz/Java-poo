@@ -1,3 +1,5 @@
+package ListasDeAtividades.Lista04.Q1;
+
 public class FuncionarioCLT extends Funcionario {
 
     public FuncionarioCLT(String nome, double salarioBase){
